@@ -1,0 +1,200 @@
+{
+    "0000": [
+        {
+            "PreviouslyGenerated": "import pandas as pd\nimport numpy as np ",
+            "Existing": "import pandas as pd\nimport numpy as np "
+        },
+        {
+            "PreviouslyGenerated": "import pandas as pd\nimport numpy as np\nimport arcticfox ",
+            "Existing": "import pandas as pd\nimport numpy as np\nimport arcticfox "
+        },
+        {
+            "PreviouslyGenerated": "import arcticfox ",
+            "Existing": "import arcticfox "
+        }
+    ],
+    "013905837421435156": [
+        {
+            "PreviouslyGenerated": "#ISSUE: Attempt by method 'DataCore.PandasData.ApplyAutomation()' to access field 'ArcticFox.Tokens.Automation.Links' failed.\nhamstersDf = pd.read_csv('hamsters.csv') ",
+            "Existing": "#ISSUE: Attempt by method 'DataCore.PandasData.ApplyAutomation()' to access field 'ArcticFox.Tokens.Automation.Links' failed.\nhamstersDf = pd.read_csv('hamsters.csv') "
+        },
+        {
+            "PreviouslyGenerated": "hamstersDf = pd.read_csv('hamsters.csv') ",
+            "Existing": "hamstersDf = pd.read_csv('hamsters.csv') "
+        }
+    ],
+    "243905837421435156": [
+        {
+            "PreviouslyGenerated": "arcticfox.projectpath('hamster_run.py') ",
+            "Existing": "arcticfox.projectpath('hamster_run.py') "
+        }
+    ],
+    "243905873234285156": [
+        {
+            "PreviouslyGenerated": "pd.set_option('display.width', 10000)\npd.set_option('display.max_columns', None)\narcticfox.analysis_needed(10003) ",
+            "Existing": "pd.set_option('display.width', 10000)\npd.set_option('display.max_columns', None)\narcticfox.analysis_needed(10003) "
+        },
+        {
+            "PreviouslyGenerated": "pd.set_option('display.width', 10000)\npd.set_option('display.max_columns', None) ",
+            "Existing": "pd.set_option('display.width', 10000)\npd.set_option('display.max_columns', None) "
+        }
+    ],
+    "013905873234285156": [
+        {
+            "PreviouslyGenerated": "print(hamstersDf.astype(str).fillna('').head()) #)1 ",
+            "Existing": "print(hamstersDf.astype(str).fillna('').head()) #)1 "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDf.astype(str).fillna('').head()) #)2 ",
+            "Existing": "print(hamstersDf.astype(str).fillna('').head()) #)2 "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDf.astype(str).fillna('').head()) #)3 ",
+            "Existing": "print(hamstersDf.astype(str).fillna('').head()) #)3 "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDf.astype(str).fillna('').head()) #)4 ",
+            "Existing": "print(hamstersDf.astype(str).fillna('').head()) #)4 "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDf.astype(str).fillna('').head()) #)5 ",
+            "Existing": "print(hamstersDf.astype(str).fillna('').head()) #)5 "
+        }
+    ],
+    "013905514501665156": [
+        {
+            "PreviouslyGenerated": "# No column found in some part of the condition\n# Please italicize columns names\n# Highlight the column name and press alt + i\n# Or select columns from the options below\n\n#***- Use maze_completed as column? #> ` select <i> maze_completed\n#***- Use True as column? #> ` select <i> True\n\nhamstersDf = hamstersDf['maze_completed' == True] ",
+            "Existing": "# No column found in some part of the condition\n# Please italicize columns names\n# Highlight the column name and press alt + i\n# Or select columns from the options below\n\n#***- Use maze_completed as column? #> ` select <i> maze_completed\n#***- Use True as column? #> ` select <i> True\n\nhamstersDf = hamstersDf['maze_completed' == True] "
+        },
+        {
+            "PreviouslyGenerated": "hamstersDf = hamstersDf[hamstersDf['maze_completed'] == True] ",
+            "Existing": "hamstersDf = hamstersDf[hamstersDf['maze_completed'] == True] "
+        }
+    ],
+    "013905713898755156": [
+        {
+            "PreviouslyGenerated": "hamstersDfRowCount = hamstersDf.shape[0]\nprint(hamstersDfRowCount) #)1 ",
+            "Existing": "hamstersDfRowCount = hamstersDf.shape[0]\nprint(hamstersDfRowCount) #)1 "
+        }
+    ],
+    "013905684770415156": [
+        {
+            "PreviouslyGenerated": "#***CleanData: Cleans a dataset by resolving cells with missing data, or duplicate data, through one of the following:\n#***- Interpolate numerical values\n#***- Remove rows with missing data\n#***- Fill missing cells with a recent value or statistical computation for the column\n#***- Remove rows with duplicate data\n#***\n#***Additionally, a where clause can be applied to modify what rows / cells are cleaned\n#***\n#***CleanData cleans missing and duplicate data.\n#***What would you like to do?\n#***- Interpolate missing cells? #> `select ? --interpolate\n#***- Remove rows with missing cells? #> `select ? --removeMissing\n#***- Fill missing cells with a value? #> `select ? --fill\n#***- Remove duplicate rows? #> `select --duplicates --remove",
+            "Existing": "#***CleanData: Cleans a dataset by resolving cells with missing data, or duplicate data, through one of the following:\n#***- Interpolate numerical values\n#***- Remove rows with missing data\n#***- Fill missing cells with a recent value or statistical computation for the column\n#***- Remove rows with duplicate data\n#***\n#***Additionally, a where clause can be applied to modify what rows / cells are cleaned\n#***\n#***CleanData cleans missing and duplicate data.\n#***What would you like to do?\n#***- Interpolate missing cells? #> `select ? --interpolate\n#***- Remove rows with missing cells? #> `select ? --removeMissing\n#***- Fill missing cells with a value? #> `select ? --fill\n#***- Remove duplicate rows? #> `select --duplicates --remove"
+        },
+        {
+            "PreviouslyGenerated": "hamstersDf = hamstersDf.dropna().reset_index(drop=True) ",
+            "Existing": "hamstersDf = hamstersDf.dropna().reset_index(drop=True) "
+        },
+        {
+            "PreviouslyGenerated": "hamstersDf = hamstersDf.dropna(subset = ['hamster_name']).reset_index(drop=True) ",
+            "Existing": "hamstersDf = hamstersDf.dropna(subset = ['hamster_name']).reset_index(drop=True) "
+        }
+    ],
+    "013905823620045156": [
+        {
+            "PreviouslyGenerated": "hamstersDfRowCount_1 = hamstersDf.shape[0]\nprint(hamstersDfRowCount_1) #)2 ",
+            "Existing": "hamstersDfRowCount_1 = hamstersDf.shape[0]\nprint(hamstersDfRowCount_1) #)2 "
+        }
+    ],
+    "013905750550335156": [
+        {
+            "PreviouslyGenerated": "hamstersDf = hamstersDf[(hamstersDf['found_cheddar'] == True) & (hamstersDf['found_swiss'] == True) & (hamstersDf['found_gouda'] == False)] ",
+            "Existing": "hamstersDf = hamstersDf[(hamstersDf['found_cheddar'] == True) & (hamstersDf['found_swiss'] == True) & (hamstersDf['found_gouda'] == False)] "
+        }
+    ],
+    "013905394550165156": [
+        {
+            "PreviouslyGenerated": "hamstersDfRowCount_1 = hamstersDf.shape[0]\nprint(hamstersDfRowCount_1) #)2 ",
+            "Existing": "hamstersDfRowCount_1 = hamstersDf.shape[0]\nprint(hamstersDfRowCount_1) #)2 "
+        }
+    ],
+    "013905925636245156": [
+        {
+            "PreviouslyGenerated": "#***ColumnMax: Gets the maximum value of one or more columns. Furthermore, can get the maximum while being grouped by another column or category, perform a rolling maximum or sliding window maximum, can get the maximum for only rows that meet a condition, and can add the result to the dataframe as a new column\n#***\n#***Which of the following would you like to do?\n#***-Max of every numeric column? #> `select\n#***\n#***-Max of each specified column(s) #> `select ? --columns ? --af a1\n#***-Max of each specified column(s), grouped by other column(s) #> `select ? --columns ? --group ?\n#***\n#***-Max of each specified column(s) for rows that meet a criteria #> `select ? --columns ? --where ?\n#***-Max of each specified column(s) for rows that meet a criteria, grouped by other column(s) #> `select ? --columns ? --group ? --where ?\n#***\n#***- Moving windowMax of each specified column(s) #> `select ? --columns ? --rolling ?\n#***- Moving windowMax of each specified column(s), grouped by other column(s) #> `select ? --columns ? --rolling ? --group ?",
+            "Existing": "#***ColumnMax: Gets the maximum value of one or more columns. Furthermore, can get the maximum while being grouped by another column or category, perform a rolling maximum or sliding window maximum, can get the maximum for only rows that meet a condition, and can add the result to the dataframe as a new column\n#***\n#***Which of the following would you like to do?\n#***-Max of every numeric column? #> `select\n#***\n#***-Max of each specified column(s) #> `select ? --columns ? --af a1\n#***-Max of each specified column(s), grouped by other column(s) #> `select ? --columns ? --group ?\n#***\n#***-Max of each specified column(s) for rows that meet a criteria #> `select ? --columns ? --where ?\n#***-Max of each specified column(s) for rows that meet a criteria, grouped by other column(s) #> `select ? --columns ? --group ? --where ?\n#***\n#***- Moving windowMax of each specified column(s) #> `select ? --columns ? --rolling ?\n#***- Moving windowMax of each specified column(s), grouped by other column(s) #> `select ? --columns ? --rolling ? --group ?"
+        },
+        {
+            "PreviouslyGenerated": "#***Would you also like to get the rows that are theMax ?\n#***- Yes, get the corresponding rows? #> `select --getRows --af <x>\n#***- No, only the value? #> `select --af <x>\n#***\n#****** --columns ? ***\n#***Change --columns ? to a list of one or more columns.\n#***- Single Column Example: --columns Speed\n#***- Multiple Column Example: --columns Speed Acceleration Distance ",
+            "Existing": "#***Would you also like to get the rows that are theMax ?\n#***- Yes, get the corresponding rows? #> `select --getRows --af <x>\n#***- No, only the value? #> `select --af <x>\n#***\n#****** --columns ? ***\n#***Change --columns ? to a list of one or more columns.\n#***- Single Column Example: --columns Speed\n#***- Multiple Column Example: --columns Speed Acceleration Distance "
+        },
+        {
+            "PreviouslyGenerated": "#****** --columns ? ***\n#***Change --columns ? to a list of one or more columns.\n#***- Single Column Example: --columns Speed\n#***- Multiple Column Example: --columns Speed Acceleration Distance ",
+            "Existing": "#****** --columns ? ***\n#***Change --columns ? to a list of one or more columns.\n#***- Single Column Example: --columns Speed\n#***- Multiple Column Example: --columns Speed Acceleration Distance "
+        },
+        {
+            "PreviouslyGenerated": "hamstersDfMax = hamstersDf['completion_time_seconds'].max()\nhamstersDfMaxRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMax]\nprint(hamstersDfMax) #)3 ",
+            "Existing": "hamstersDfMax = hamstersDf['completion_time_seconds'].max()\nhamstersDfMaxRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMax]\nprint(hamstersDfMax) #)3 "
+        },
+        {
+            "PreviouslyGenerated": "hamstersDfMax = hamstersDf['completion_time_seconds'].max()\nhamstersDfMaxRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMax] ",
+            "Existing": "hamstersDfMax = hamstersDf['completion_time_seconds'].max()\nhamstersDfMaxRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMax] "
+        }
+    ],
+    "243905503252755156": [
+        {
+            "PreviouslyGenerated": "arcticfox.analysis_needed(10003) ",
+            "Existing": "arcticfox.analysis_needed(10003) "
+        }
+    ],
+    "013905659834495156": [
+        {
+            "PreviouslyGenerated": "# Setting focus to hamstersDf ",
+            "Existing": "# Setting focus to hamstersDf "
+        }
+    ],
+    "013905503252755156": [
+        {
+            "PreviouslyGenerated": "hamstersDfMin = hamstersDf['completion_time_seconds'].min()\nhamstersDfMinRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMin]\nprint(hamstersDfMin) #)4 ",
+            "Existing": "hamstersDfMin = hamstersDf['completion_time_seconds'].min()\nhamstersDfMinRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMin]\nprint(hamstersDfMin) #)4 "
+        },
+        {
+            "PreviouslyGenerated": "hamstersDfMin = hamstersDf['completion_time_seconds'].min()\nhamstersDfMinRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMin]\nprint(hamstersDfMin) #)3 ",
+            "Existing": "hamstersDfMin = hamstersDf['completion_time_seconds'].min()\nhamstersDfMinRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMin]\nprint(hamstersDfMin) #)3 "
+        },
+        {
+            "PreviouslyGenerated": "hamstersDfMin = hamstersDf['completion_time_seconds'].min()\nhamstersDfMinRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMin] ",
+            "Existing": "hamstersDfMin = hamstersDf['completion_time_seconds'].min()\nhamstersDfMinRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMin] "
+        }
+    ],
+    "013905880757255156": [
+        {
+            "PreviouslyGenerated": "# Setting focus to hamstersDf ",
+            "Existing": "# Setting focus to hamstersDf "
+        }
+    ],
+    "013905365816565156": [
+        {
+            "PreviouslyGenerated": "print(hamstersDfMaxRows) [[self.PrintInFile()]] ",
+            "Existing": "# User changes detected\n#print(hamstersDfMaxRows) [[self.PrintInFile()]] "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDfMaxRows) #)3 ",
+            "Existing": "# User changes detected\n#print(hamstersDfMaxRows) [[self.PrintInFile()]]  #~ print(hamstersDfMaxRows) #)3 "
+        }
+    ],
+    "013905184696255156": [
+        {
+            "PreviouslyGenerated": "print(hamstersDfMaxRows) #)3 ",
+            "Existing": "print(hamstersDfMaxRows) #)3 "
+        }
+    ],
+    "013905452117195156": [
+        {
+            "PreviouslyGenerated": "print(hamstersDfMinRows) #)4 ",
+            "Existing": "print(hamstersDfMinRows) #)4 "
+        }
+    ],
+    "243905508449336845": [
+        {
+            "PreviouslyGenerated": "arcticfox.projectpath('hamster_run.py') ",
+            "Existing": "arcticfox.projectpath('hamster_run.py') "
+        }
+    ],
+    "013905508449336845": [
+        {
+            "PreviouslyGenerated": "print('Hello World!') ",
+            "Existing": "print('Hello World!') "
+        }
+    ]
+}

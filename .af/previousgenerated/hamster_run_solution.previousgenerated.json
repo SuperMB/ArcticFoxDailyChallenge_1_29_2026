@@ -1,0 +1,210 @@
+{
+    "0000": [
+        {
+            "PreviouslyGenerated": "import pandas as pd\nimport numpy as np\nimport arcticfox ",
+            "Existing": "import pandas as pd\nimport numpy as np\nimport arcticfox "
+        }
+    ],
+    "243905110465891986": [
+        {
+            "PreviouslyGenerated": "arcticfox.projectpath('hamster_run_solution.py') ",
+            "Existing": "arcticfox.projectpath('hamster_run_solution.py') "
+        }
+    ],
+    "243905532213511986": [
+        {
+            "PreviouslyGenerated": "pd.set_option('display.width', 10000)\npd.set_option('display.max_columns', None) ",
+            "Existing": "pd.set_option('display.width', 10000)\npd.set_option('display.max_columns', None) "
+        }
+    ],
+    "013905110465891986": [
+        {
+            "PreviouslyGenerated": "hamstersDf = pd.read_csv('hamsters.csv') ",
+            "Existing": "hamstersDf = pd.read_csv('hamsters.csv') "
+        }
+    ],
+    "013905244676701986": [
+        {
+            "PreviouslyGenerated": "hamstersDf = hamstersDf[hamstersDf['maze_completed'] == True] ",
+            "Existing": "hamstersDf = hamstersDf[hamstersDf['maze_completed'] == True] "
+        }
+    ],
+    "013905795048071986": [
+        {
+            "PreviouslyGenerated": "hamstersDfRowCount = hamstersDf.shape[0]\nprint(hamstersDfRowCount) #)1 ",
+            "Existing": "hamstersDfRowCount = hamstersDf.shape[0]\nprint(hamstersDfRowCount) #)1 "
+        }
+    ],
+    "013905750349301986": [
+        {
+            "PreviouslyGenerated": "hamstersDf = hamstersDf[(hamstersDf['found_cheddar'] == True) & (hamstersDf['found_swiss'] == True) & (hamstersDf['found_gouda'] == False)] ",
+            "Existing": "hamstersDf = hamstersDf[(hamstersDf['found_cheddar'] == True) & (hamstersDf['found_swiss'] == True) & (hamstersDf['found_gouda'] == False)] "
+        }
+    ],
+    "013905377364261986": [
+        {
+            "PreviouslyGenerated": "hamstersDfRowCount_1 = hamstersDf.shape[0]\nprint(hamstersDfRowCount_1) #)2 ",
+            "Existing": "hamstersDfRowCount_1 = hamstersDf.shape[0]\nprint(hamstersDfRowCount_1) #)2 "
+        }
+    ],
+    "013905709783851986": [
+        {
+            "PreviouslyGenerated": "hamstersDfMax = hamstersDf['completion_time_seconds'].max()\nhamstersDfMaxRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMax] ",
+            "Existing": "hamstersDfMax = hamstersDf['completion_time_seconds'].max()\nhamstersDfMaxRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMax] "
+        }
+    ],
+    "013905172987341986": [
+        {
+            "PreviouslyGenerated": "print(hamstersDfMaxRows) #)3 ",
+            "Existing": "print(hamstersDfMaxRows) #)3 "
+        }
+    ],
+    "013905632035431986": [
+        {
+            "PreviouslyGenerated": "# Setting focus to hamstersDf ",
+            "Existing": "# Setting focus to hamstersDf "
+        }
+    ],
+    "013905419843181986": [
+        {
+            "PreviouslyGenerated": "print(hamstersDfMinRows) #)4 ",
+            "Existing": "print(hamstersDfMinRows) #)4 "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDfMaxRows) #)4 ",
+            "Existing": "print(hamstersDfMaxRows) #)4 "
+        }
+    ],
+    "013905532213511986": [
+        {
+            "PreviouslyGenerated": "print(hamstersDfMinRows.astype(str).fillna('').head()) #)5 ",
+            "Existing": "print(hamstersDfMinRows.astype(str).fillna('').head()) #)5 "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDf.astype(str).fillna('').head()) #)5 ",
+            "Existing": "print(hamstersDf.astype(str).fillna('').head()) #)5 "
+        }
+    ],
+    "243905651412382905": [
+        {
+            "PreviouslyGenerated": "arcticfox.projectpath('hamster_run_solution.py') ",
+            "Existing": "arcticfox.projectpath('hamster_run_solution.py') "
+        }
+    ],
+    "243905466692892905": [
+        {
+            "PreviouslyGenerated": "pd.set_option('display.width', 10000)\npd.set_option('display.max_columns', None) ",
+            "Existing": "pd.set_option('display.width', 10000)\npd.set_option('display.max_columns', None) "
+        }
+    ],
+    "013905651412382905": [
+        {
+            "PreviouslyGenerated": "hamstersDf = pd.read_csv('hamsters.csv') ",
+            "Existing": "hamstersDf = pd.read_csv('hamsters.csv') "
+        }
+    ],
+    "013905601303462905": [
+        {
+            "PreviouslyGenerated": "hamstersDf = hamstersDf[hamstersDf['maze_completed'] == True] ",
+            "Existing": "hamstersDf = hamstersDf[hamstersDf['maze_completed'] == True] "
+        }
+    ],
+    "013905885165172905": [
+        {
+            "PreviouslyGenerated": "hamstersDfRowCount = hamstersDf.shape[0]\nprint(hamstersDfRowCount) #)1 ",
+            "Existing": "hamstersDfRowCount = hamstersDf.shape[0]\nprint(hamstersDfRowCount) #)1 "
+        }
+    ],
+    "013905122522862905": [
+        {
+            "PreviouslyGenerated": "hamstersDf = hamstersDf[(hamstersDf['found_cheddar'] == True) & (hamstersDf['found_swiss'] == True) & (hamstersDf['found_gouda'] == False)] ",
+            "Existing": "hamstersDf = hamstersDf[(hamstersDf['found_cheddar'] == True) & (hamstersDf['found_swiss'] == True) & (hamstersDf['found_gouda'] == False)] "
+        }
+    ],
+    "013905824571142905": [
+        {
+            "PreviouslyGenerated": "hamstersDfRowCount_1 = hamstersDf.shape[0]\nprint(hamstersDfRowCount_1) #)2 ",
+            "Existing": "hamstersDfRowCount_1 = hamstersDf.shape[0]\nprint(hamstersDfRowCount_1) #)2 "
+        }
+    ],
+    "013905688398512905": [
+        {
+            "PreviouslyGenerated": "hamstersDfMax = hamstersDf['completion_time_seconds'].max()\nhamstersDfMaxRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMax] ",
+            "Existing": "hamstersDfMax = hamstersDf['completion_time_seconds'].max()\nhamstersDfMaxRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMax] "
+        }
+    ],
+    "013905955611202905": [
+        {
+            "PreviouslyGenerated": "print(hamstersDfMaxRows) [[self.PrintInFile()]] ",
+            "Existing": "print(hamstersDfMaxRows) [[self.PrintInFile()]] "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDfMaxRows) #)3 ",
+            "Existing": "print(hamstersDfMaxRows) #)3 "
+        }
+    ],
+    "013905984937612905": [
+        {
+            "PreviouslyGenerated": "# Setting focus to hamstersDf ",
+            "Existing": "# Setting focus to hamstersDf "
+        }
+    ],
+    "013905811449222905": [
+        {
+            "PreviouslyGenerated": "print(hamstersDfMaxRows) #)4 ",
+            "Existing": "print(hamstersDfMaxRows) #)4 "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDfMaxRowsMinRows) [[self.PrintInFile()]] ",
+            "Existing": "print(hamstersDfMaxRowsMinRows) [[self.PrintInFile()]] "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDfMinRows) [[self.PrintInFile()]] ",
+            "Existing": "print(hamstersDfMinRows) [[self.PrintInFile()]] "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDfMinRows) #)5 ",
+            "Existing": "print(hamstersDfMinRows) #)5 "
+        }
+    ],
+    "013905466692892905": [
+        {
+            "PreviouslyGenerated": "print(hamstersDf.astype(str).fillna('').head()) #)3 ",
+            "Existing": "print(hamstersDf.astype(str).fillna('').head()) #)3 "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDf.astype(str).fillna('').head()) #)6 ",
+            "Existing": "print(hamstersDf.astype(str).fillna('').head()) #)6 "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDf.astype(str).fillna('').head()) #)5 ",
+            "Existing": "print(hamstersDf.astype(str).fillna('').head()) #)5 "
+        }
+    ],
+    "013905832634272905": [
+        {
+            "PreviouslyGenerated": "hamstersDfMaxRowsMin = hamstersDfMaxRows['completion_time_seconds'].min()\nhamstersDfMaxRowsMinRows = hamstersDfMaxRows[hamstersDfMaxRows['completion_time_seconds'] == hamstersDfMaxRowsMin] ",
+            "Existing": "hamstersDfMaxRowsMin = hamstersDfMaxRows['completion_time_seconds'].min()\nhamstersDfMaxRowsMinRows = hamstersDfMaxRows[hamstersDfMaxRows['completion_time_seconds'] == hamstersDfMaxRowsMin] "
+        },
+        {
+            "PreviouslyGenerated": "hamstersDfMin = hamstersDf['completion_time_seconds'].min()\nhamstersDfMinRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMin] ",
+            "Existing": "hamstersDfMin = hamstersDf['completion_time_seconds'].min()\nhamstersDfMinRows = hamstersDf[hamstersDf['completion_time_seconds'] == hamstersDfMin] "
+        }
+    ],
+    "013905389878442905": [
+        {
+            "PreviouslyGenerated": "# Setting focus to hamstersDf ",
+            "Existing": "# Setting focus to hamstersDf "
+        }
+    ],
+    "013905175385162905": [
+        {
+            "PreviouslyGenerated": "print(hamstersDfMinRows) [[self.PrintInFile()]] ",
+            "Existing": "print(hamstersDfMinRows) [[self.PrintInFile()]] "
+        },
+        {
+            "PreviouslyGenerated": "print(hamstersDfMinRows) #)4 ",
+            "Existing": "print(hamstersDfMinRows) #)4 "
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "variables": {
+        "hamstersDf": {
+            "columns": [
+                {
+                    "Name": "hamster_id",
+                    "ColumnType": 1
+                },
+                {
+                    "Name": "hamster_name",
+                    "ColumnType": 0
+                },
+                {
+                    "Name": "found_cheddar",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "found_swiss",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "found_gouda",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "maze_completed",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "completion_time_seconds",
+                    "ColumnType": 2
+                },
+                {
+                    "Name": "hamster_id",
+                    "ColumnName": "hamster_id",
+                    "ColumnType": 1
+                },
+                {
+                    "Name": "hamster_name",
+                    "ColumnName": "hamster_name",
+                    "ColumnType": 5
+                },
+                {
+                    "Name": "found_cheddar",
+                    "ColumnName": "found_cheddar",
+                    "ColumnType": 4
+                },
+                {
+                    "Name": "found_swiss",
+                    "ColumnName": "found_swiss",
+                    "ColumnType": 4
+                },
+                {
+                    "Name": "found_gouda",
+                    "ColumnName": "found_gouda",
+                    "ColumnType": 4
+                },
+                {
+                    "Name": "maze_completed",
+                    "ColumnName": "maze_completed",
+                    "ColumnType": 4
+                },
+                {
+                    "Name": "completion_time_seconds",
+                    "ColumnName": "completion_time_seconds",
+                    "ColumnType": 2
+                }
+            ],
+            "hasHeaders": false,
+            "type": "pandas.core.frame.DataFrame"
+        },
+        "hamstersDfRowCount": {
+            "type": "int"
+        },
+        "hamstersDfRowCount_1": {
+            "type": "int"
+        },
+        "hamstersDfMax": {
+            "type": "numpy.float64"
+        },
+        "hamstersDfMaxRows": {
+            "type": "pandas.core.frame.DataFrame",
+            "columns": [
+                {
+                    "Name": "hamster_id",
+                    "ColumnType": 1
+                },
+                {
+                    "Name": "hamster_name",
+                    "ColumnType": 0
+                },
+                {
+                    "Name": "found_cheddar",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "found_swiss",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "found_gouda",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "maze_completed",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "completion_time_seconds",
+                    "ColumnType": 2
+                }
+            ]
+        },
+        "hamstersDfMin": {
+            "type": "numpy.float64"
+        },
+        "hamstersDfMinRows": {
+            "type": "pandas.core.frame.DataFrame",
+            "columns": [
+                {
+                    "Name": "hamster_id",
+                    "ColumnType": 1
+                },
+                {
+                    "Name": "hamster_name",
+                    "ColumnType": 0
+                },
+                {
+                    "Name": "found_cheddar",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "found_swiss",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "found_gouda",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "maze_completed",
+                    "ColumnType": 3
+                },
+                {
+                    "Name": "completion_time_seconds",
+                    "ColumnType": 2
+                }
+            ]
+        }
+    }
+}
